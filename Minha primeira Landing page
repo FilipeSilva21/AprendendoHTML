@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="drescription" content="Um bot que irá moderar sua comunidade do discord de um jeito fácil!">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Landing Page Rafaela Ballerini</title>
+</head>
+
+<body>
+<header class="cabecalho">
+ <img class="cabecalhoImg" src="Logo.svg" alt="Foto da Logo">
+   <nav class="cabecalhoMenu">
+     <a class="cabecalhoItem" href="https://discord.com/invite/wagxzStdcR">Comunidade Ballerini</a>
+     <a class="cabecalhoItem">Tutorial</a>
+     <a class="cabecalhoItem">Open Source</a>
+     <a class="cabecalhoItem">Comandos</a>
+   </nav>
+</header>
+
+<main class="conteudo">
+    <section class="conteudoPrincipal">
+        <div class="conteudoPrincipalEscrito">
+            <h1 class="conteudoPrincipalEScritoTitulo">Balle Bot</h1>
+            <h2 class="conteudoPrincipalEscritoSubtitulo">Deixe a sua comunidade segura de um jeito fácil!</h2>
+            <button class="conteudoPrincipalEscritoBotao">Me adicione</button>
+        </div>
+        <img class="conteudoPrincipalImg" src="BalleBot.svg" alt="Imagem BalleBot">
+    </section>
+
+    <section class="conteudoSecundario">
+        <h3 class="conteudoSecundarioTitulo">O que ela faz por você</h3>
+        <p class="conteudoSecundarioParagrafo">1. Cria um <strong>sistema de verificação capcha</strong> para novos membros garantirem que não são robôs</p>
+        <p class="conteudoSecundarioParagrafo">2. Possui um<strong>sistema de banimento automático</strong> para links suspeitos que forem enviados na comunidade</p>
+        <p class="conteudoSecundarioParagrafo">3. <strong>Sistema de avisos e banimento manual</strong>, para pessoas administradoras utilizarem</p>
+    </section>
+</main>
+
+<footer class="footer">
+    <img class="footerBalleriniImg" src="BALLERINI.svg" alt="BALLERINI">
+</footer>    
+</body>
+</html>
+
+........................................................................................................................................................................
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+ }
+
+ body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+ }
+
+ .cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+ }
+
+ .cabecalhoImg{
+    height: 72px;
+ }
+
+.cabecalhoMenu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalhoItem{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudoPrincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudoPrincipalEscrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudoPrincipalEScritoTitulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.conteudoPrincipalEscritoSubtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+ 
+.conteudoPrincipalEscritoBotao{
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    color: #2F2325;
+}
+
+.conteudoPrincipalEscritoBotao:hover{
+background-color: rgba(236, 214,196, 0.53);
+}
+
+.conteudoPrincipalImg{
+    height: 430px;
+}
+
+.conteudoSecundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudoSecundarioTitulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+}
+
+.conteudoSecundarioParagrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFF2E7;
+}
+
+.footer{
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.footerBalleriniImg{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
